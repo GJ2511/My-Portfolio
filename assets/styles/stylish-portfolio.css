@@ -178,6 +178,12 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.service-item span.fa-stack img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
 /* Callout */
 
 .callout {

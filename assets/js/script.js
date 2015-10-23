@@ -25,4 +25,13 @@ $(function() {
             }
         }
     });
+    $("#myCarousel").owlCarousel({
+        items: 4,
+        itemsDesktop: [1199,4],
+        itemsDesktopSmall: [979,4],
+        itemsTablet: [979,3],
+        itemsMobile: [479,1],
+        autoPlay: true,
+        stopOnHover: true
+    });
 });
