@@ -1,2 +1,3 @@
-# portfolio
-My own portfolio Website
+# My-Portfolio
+
+a [Sails](http://sailsjs.org) application
