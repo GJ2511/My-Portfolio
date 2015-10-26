@@ -16,6 +16,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.color-blue {
+    color: #337ab7;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -55,6 +59,19 @@ body {
 .btn-light:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
+}
+
+.btn-blue {
+    border-radius: 0;
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+    color: #fff;
+    background-color: #337ab7;
 }
 
 /* Custom Horizontal Rule */
