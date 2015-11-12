@@ -34,4 +34,8 @@ $(function() {
         autoPlay: true,
         stopOnHover: true
     });
+
+    $('.flip').hover(function(){
+        $(this).find('.card').toggleClass('flipped');
+    });
 });
