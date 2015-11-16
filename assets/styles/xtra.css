@@ -43,10 +43,26 @@
 
 .portfolio-name {
     border: 1px solid #0000ff;
-    background-color: #0000ff;
-    color: #fff;
-    font-weight: 700;
+    background-color: #337ab7;
     border-radius: 30px;
     margin: 0 auto;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.portfolio-name a {
+  color: #d3d3d3;
+  font-weight: 700;
+}
+
+.portfolio-stack {
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.portfolio-stack .heading {
+  font-size: 15px;
+  font-weight: bold;
 }
 
